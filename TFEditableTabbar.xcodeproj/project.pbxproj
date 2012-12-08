@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E265E4E316726188008B30A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E265E4E216726188008B30A0 /* UIKit.framework */; };
+		E265E4E516726188008B30A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E265E4E416726188008B30A0 /* Foundation.framework */; };
+		E265E4E716726188008B30A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E265E4E616726188008B30A0 /* CoreGraphics.framework */; };
+		E265E4ED16726188008B30A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E265E4EB16726188008B30A0 /* InfoPlist.strings */; };
+		E265E4EF16726188008B30A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E265E4EE16726188008B30A0 /* main.m */; };
+		E265E4F316726188008B30A0 /* TFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E265E4F216726188008B30A0 /* TFAppDelegate.m */; };
+		E265E4F516726188008B30A0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E265E4F416726188008B30A0 /* Default.png */; };
+		E265E4F716726188008B30A0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E265E4F616726188008B30A0 /* Default@2x.png */; };
+		E265E4F916726188008B30A0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E265E4F816726188008B30A0 /* Default-568h@2x.png */; };
+		E265E4FC16726188008B30A0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E265E4FA16726188008B30A0 /* MainStoryboard.storyboard */; };
+		E265E50116726188008B30A0 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = E265E50016726188008B30A0 /* first.png */; };
+		E265E50316726188008B30A0 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E265E50216726188008B30A0 /* first@2x.png */; };
+		E265E50616726188008B30A0 /* TFSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E265E50516726188008B30A0 /* TFSecondViewController.m */; };
+		E265E50816726188008B30A0 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = E265E50716726188008B30A0 /* second.png */; };
+		E265E50A16726188008B30A0 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E265E50916726188008B30A0 /* second@2x.png */; };
+		E265E512167261E1008B30A0 /* UITabBarController+TabBarVisibility.m in Sources */ = {isa = PBXBuildFile; fileRef = E265E511167261E1008B30A0 /* UITabBarController+TabBarVisibility.m */; };
+		E265E51516726253008B30A0 /* TFEditableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E265E51416726253008B30A0 /* TFEditableTableViewController.m */; };
+		E265E5181672642B008B30A0 /* TFEditingToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E265E5171672642B008B30A0 /* TFEditingToolbar.m */; };
+		E265E51B167287AA008B30A0 /* TFDemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E265E51A167287AA008B30A0 /* TFDemoTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E265E4DE16726188008B30A0 /* TFEditableTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFEditableTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E265E4E216726188008B30A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E265E4E416726188008B30A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E265E4E616726188008B30A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E265E4EA16726188008B30A0 /* TFEditableTabbar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TFEditableTabbar-Info.plist"; sourceTree = "<group>"; };
+		E265E4EC16726188008B30A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E265E4EE16726188008B30A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E265E4F016726188008B30A0 /* TFEditableTabbar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TFEditableTabbar-Prefix.pch"; sourceTree = "<group>"; };
+		E265E4F116726188008B30A0 /* TFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFAppDelegate.h; sourceTree = "<group>"; };
+		E265E4F216726188008B30A0 /* TFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFAppDelegate.m; sourceTree = "<group>"; };
+		E265E4F416726188008B30A0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E265E4F616726188008B30A0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E265E4F816726188008B30A0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E265E4FB16726188008B30A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E265E50016726188008B30A0 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		E265E50216726188008B30A0 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		E265E50416726188008B30A0 /* TFSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFSecondViewController.h; sourceTree = "<group>"; };
+		E265E50516726188008B30A0 /* TFSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFSecondViewController.m; sourceTree = "<group>"; };
+		E265E50716726188008B30A0 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		E265E50916726188008B30A0 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		E265E510167261E1008B30A0 /* UITabBarController+TabBarVisibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITabBarController+TabBarVisibility.h"; path = "TFEditableTabbar/UITabBarController+TabBarVisibility.h"; sourceTree = "<group>"; };
+		E265E511167261E1008B30A0 /* UITabBarController+TabBarVisibility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITabBarController+TabBarVisibility.m"; path = "TFEditableTabbar/UITabBarController+TabBarVisibility.m"; sourceTree = "<group>"; };
+		E265E51316726253008B30A0 /* TFEditableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFEditableTableViewController.h; path = TFEditableTabbar/TFEditableTableViewController.h; sourceTree = "<group>"; };
+		E265E51416726253008B30A0 /* TFEditableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFEditableTableViewController.m; path = TFEditableTabbar/TFEditableTableViewController.m; sourceTree = "<group>"; };
+		E265E5161672642B008B30A0 /* TFEditingToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFEditingToolbar.h; path = TFEditableTabbar/TFEditingToolbar.h; sourceTree = "<group>"; };
+		E265E5171672642B008B30A0 /* TFEditingToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFEditingToolbar.m; path = TFEditableTabbar/TFEditingToolbar.m; sourceTree = "<group>"; };
+		E265E519167287A9008B30A0 /* TFDemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFDemoTableViewController.h; sourceTree = "<group>"; };
+		E265E51A167287AA008B30A0 /* TFDemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFDemoTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E265E4DB16726188008B30A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E265E4E316726188008B30A0 /* UIKit.framework in Frameworks */,
+				E265E4E516726188008B30A0 /* Foundation.framework in Frameworks */,
+				E265E4E716726188008B30A0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E265E4D316726188008B30A0 = {
+			isa = PBXGroup;
+			children = (
+				E265E4E816726188008B30A0 /* TFEditableTabbar */,
+				E265E4E116726188008B30A0 /* Frameworks */,
+				E265E4DF16726188008B30A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E265E4DF16726188008B30A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E265E4DE16726188008B30A0 /* TFEditableTabbar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E265E4E116726188008B30A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E265E4E216726188008B30A0 /* UIKit.framework */,
+				E265E4E416726188008B30A0 /* Foundation.framework */,
+				E265E4E616726188008B30A0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E265E4E816726188008B30A0 /* TFEditableTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				E265E51D167344C3008B30A0 /* TFEditableTableView */,
+				E265E51C167344BB008B30A0 /* Demo */,
+				E265E4E916726188008B30A0 /* Supporting Files */,
+			);
+			path = TFEditableTabbar;
+			sourceTree = "<group>";
+		};
+		E265E4E916726188008B30A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E265E4EA16726188008B30A0 /* TFEditableTabbar-Info.plist */,
+				E265E4EB16726188008B30A0 /* InfoPlist.strings */,
+				E265E4EE16726188008B30A0 /* main.m */,
+				E265E4F016726188008B30A0 /* TFEditableTabbar-Prefix.pch */,
+				E265E4F416726188008B30A0 /* Default.png */,
+				E265E4F616726188008B30A0 /* Default@2x.png */,
+				E265E4F816726188008B30A0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			path = ../Demo;
+			sourceTree = "<group>";
+		};
+		E265E51C167344BB008B30A0 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E265E519167287A9008B30A0 /* TFDemoTableViewController.h */,
+				E265E51A167287AA008B30A0 /* TFDemoTableViewController.m */,
+				E265E4F116726188008B30A0 /* TFAppDelegate.h */,
+				E265E4F216726188008B30A0 /* TFAppDelegate.m */,
+				E265E4FA16726188008B30A0 /* MainStoryboard.storyboard */,
+				E265E50016726188008B30A0 /* first.png */,
+				E265E50216726188008B30A0 /* first@2x.png */,
+				E265E50416726188008B30A0 /* TFSecondViewController.h */,
+				E265E50516726188008B30A0 /* TFSecondViewController.m */,
+				E265E50716726188008B30A0 /* second.png */,
+				E265E50916726188008B30A0 /* second@2x.png */,
+			);
+			name = Demo;
+			path = ../Demo;
+			sourceTree = "<group>";
+		};
+		E265E51D167344C3008B30A0 /* TFEditableTableView */ = {
+			isa = PBXGroup;
+			children = (
+				E265E51316726253008B30A0 /* TFEditableTableViewController.h */,
+				E265E51416726253008B30A0 /* TFEditableTableViewController.m */,
+				E265E5161672642B008B30A0 /* TFEditingToolbar.h */,
+				E265E5171672642B008B30A0 /* TFEditingToolbar.m */,
+				E265E510167261E1008B30A0 /* UITabBarController+TabBarVisibility.h */,
+				E265E511167261E1008B30A0 /* UITabBarController+TabBarVisibility.m */,
+			);
+			name = TFEditableTableView;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E265E4DD16726188008B30A0 /* TFEditableTabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E265E50D16726188008B30A0 /* Build configuration list for PBXNativeTarget "TFEditableTabbar" */;
+			buildPhases = (
+				E265E4DA16726188008B30A0 /* Sources */,
+				E265E4DB16726188008B30A0 /* Frameworks */,
+				E265E4DC16726188008B30A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFEditableTabbar;
+			productName = TFEditableTabbar;
+			productReference = E265E4DE16726188008B30A0 /* TFEditableTabbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E265E4D516726188008B30A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TF;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Tom Fewster";
+			};
+			buildConfigurationList = E265E4D816726188008B30A0 /* Build configuration list for PBXProject "TFEditableTabbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E265E4D316726188008B30A0;
+			productRefGroup = E265E4DF16726188008B30A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E265E4DD16726188008B30A0 /* TFEditableTabbar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E265E4DC16726188008B30A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E265E4ED16726188008B30A0 /* InfoPlist.strings in Resources */,
+				E265E4F516726188008B30A0 /* Default.png in Resources */,
+				E265E4F716726188008B30A0 /* Default@2x.png in Resources */,
+				E265E4F916726188008B30A0 /* Default-568h@2x.png in Resources */,
+				E265E4FC16726188008B30A0 /* MainStoryboard.storyboard in Resources */,
+				E265E50116726188008B30A0 /* first.png in Resources */,
+				E265E50316726188008B30A0 /* first@2x.png in Resources */,
+				E265E50816726188008B30A0 /* second.png in Resources */,
+				E265E50A16726188008B30A0 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E265E4DA16726188008B30A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E265E4EF16726188008B30A0 /* main.m in Sources */,
+				E265E4F316726188008B30A0 /* TFAppDelegate.m in Sources */,
+				E265E50616726188008B30A0 /* TFSecondViewController.m in Sources */,
+				E265E512167261E1008B30A0 /* UITabBarController+TabBarVisibility.m in Sources */,
+				E265E51516726253008B30A0 /* TFEditableTableViewController.m in Sources */,
+				E265E5181672642B008B30A0 /* TFEditingToolbar.m in Sources */,
+				E265E51B167287AA008B30A0 /* TFDemoTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E265E4EB16726188008B30A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E265E4EC16726188008B30A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E265E4FA16726188008B30A0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E265E4FB16726188008B30A0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E265E50B16726188008B30A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E265E50C16726188008B30A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E265E50E16726188008B30A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/TFEditableTabbar-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/TFEditableTabbar-Info.plist";
+				PRODUCT_NAME = TFEditableTabbar;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E265E50F16726188008B30A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/TFEditableTabbar-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/TFEditableTabbar-Info.plist";
+				PRODUCT_NAME = TFEditableTabbar;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E265E4D816726188008B30A0 /* Build configuration list for PBXProject "TFEditableTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E265E50B16726188008B30A0 /* Debug */,
+				E265E50C16726188008B30A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E265E50D16726188008B30A0 /* Build configuration list for PBXNativeTarget "TFEditableTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E265E50E16726188008B30A0 /* Debug */,
+				E265E50F16726188008B30A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E265E4D516726188008B30A0 /* Project object */;
+}
