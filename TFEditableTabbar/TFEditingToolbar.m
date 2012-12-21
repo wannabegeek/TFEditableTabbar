@@ -38,7 +38,7 @@
 - (void)layoutSubviews {
 	if (self.superview) {
 		CGFloat width = self.superview.frame.size.width;
-		if (UIDeviceOrientationIsLandscape([UIApplication sharedApplication].statusBarOrientation)) {
+		if (UIDeviceOrientationIsLandscape([UIApplication sharedApplication].statusBarOrientation) && UI_USER_INTERFACE_IDIOM() != UIUserInterfaceIdiomPad) {
 			width = self.superview.frame.size.height;
 		}
 		_deleteButtonItem.width = width/2.0 - 12;
